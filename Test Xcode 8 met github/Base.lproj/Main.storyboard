@@ -18,35 +18,24 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xwI-am-lSx">
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Result" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oj7-UZ-k9c">
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wza-p0-qiT">
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="100" id="GCF-oB-5Kc"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name=".AppleSystemUIFontBold" family=".SF UI Text" pointSize="20"/>
-                                <state key="normal" title="Convert">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xwI-am-lSx">
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="0.50251886693399883" blue="0.013436499259533052" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="oj7-UZ-k9c" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1o3-ww-VBe"/>
-                            <constraint firstItem="oj7-UZ-k9c" firstAttribute="top" secondItem="wza-p0-qiT" secondAttribute="bottom" constant="79" id="9KM-TX-qK0"/>
-                            <constraint firstItem="wza-p0-qiT" firstAttribute="top" secondItem="xwI-am-lSx" secondAttribute="bottom" constant="56" id="Kuc-pb-y1g"/>
+                            <constraint firstItem="y3c-jy-aDJ" firstAttribute="top" secondItem="xwI-am-lSx" secondAttribute="bottom" constant="67" id="Cbz-LW-8kE"/>
                             <constraint firstItem="xwI-am-lSx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ng2-sm-3AE"/>
                             <constraint firstItem="oj7-UZ-k9c" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Plf-da-MBv"/>
                             <constraint firstItem="xwI-am-lSx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Yc9-MQ-Vkn"/>
-                            <constraint firstItem="wza-p0-qiT" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="cxO-1G-CZC"/>
-                            <constraint firstItem="wza-p0-qiT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qL6-Jk-6h6"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="oj7-UZ-k9c" secondAttribute="bottom" constant="121" id="qF7-Jv-iwl"/>
                         </constraints>
                     </view>
                 </viewController>
